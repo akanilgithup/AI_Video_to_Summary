@@ -94,11 +94,12 @@ def main():
     st.set_page_config(page_title="AI Video Summarizer & Lyrics Generator", page_icon=":clapper:", layout="wide")
 
     st.title("AI Video Summarizer & Lyrics Generator")
-    st.write("Welcome to our application where you can summarize videos and generate song lyrics!")
+    st.write("Welcome to our application where you can summarize videos and generate summary of text!")
 
     st.sidebar.title("About")
-    st.sidebar.write("This tool uses AI to generate summaries of video content and transcribe audio into lyrics.")
-
+    st.sidebar.write("This tool uses AI to generate summaries of video content and transcribe text into short summary.")
+    st.sidebar.title("Developer :")
+    st.sidebar.write("  ANIL KUMAR")
     summary_type = st.sidebar.radio("Select Summary Type", ["Video Summary", "Text Summary"])
 
     if summary_type == "Text Summary":
