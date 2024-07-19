@@ -1,0 +1,8 @@
+streamlit
+moviepy
+speech_recognition 
+os
+transformers 
+nltk
+string
+pydub
