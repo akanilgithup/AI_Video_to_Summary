@@ -1,6 +1,6 @@
-streamlit==1.12.0
-moviepy==1.0.3
-SpeechRecognition==3.8.1
-transformers==4.15.0
-nltk==3.6.5
-pydub==0.25.1
+streamlit
+moviepy
+SpeechRecognition
+transformers
+nltk
+pydub
