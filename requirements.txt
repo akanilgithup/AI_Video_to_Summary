@@ -1,8 +1,6 @@
 streamlit
 moviepy
-speech_recognition 
-os
-transformers 
+SpeechRecognition
+transformers
 nltk
-string
 pydub
