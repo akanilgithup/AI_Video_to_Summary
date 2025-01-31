@@ -1,5 +1,4 @@
 streamlit
-moviepy
 SpeechRecognition
 transformers
 nltk
@@ -7,4 +6,5 @@ pydub
 sentencepiece
 tensorflow
 tf-keras
+moviepy
 imageio[ffmpeg]
