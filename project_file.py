@@ -1,3 +1,16 @@
+
+import os
+import subprocess
+
+# Ensure required packages are installed
+packages = ["moviepy", "speechrecognition", "transformers", "nltk", "pydub", "imageio[ffmpeg]"]
+
+for package in packages:
+    try:
+        __import__(package)
+    except ImportError:
+        subprocess.run([sys.executable, "-m", "pip", "install", package])
+
 import streamlit as st
 import moviepy.editor as mp
 import speech_recognition as sr
