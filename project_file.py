@@ -13,11 +13,19 @@ from pydub import AudioSegment
 
 
 
-#  Download NLTK resources if not already downloaded
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# Function to extract audio from a video file
+import nltk
+
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+
+
 def extract_audio(video_path, audio_path="temp_audio.wav"):
     video = mp.VideoFileClip(video_path)
     audio = video.audio
