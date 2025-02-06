@@ -1,7 +1,7 @@
 
 import streamlit as st
 import moviepy
-import moviepy.editor as mp
+import moviepy as mp
 import speech_recognition as sr
 import os
 from transformers import T5Tokenizer, TFT5ForConditionalGeneration
